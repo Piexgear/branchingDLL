@@ -1,4 +1,4 @@
-using App;
+﻿using App;
 
 List<User> users = new List<User>();
 List<Weapon> inventory = new List<Weapon>();
@@ -12,7 +12,8 @@ foreach (User user in users)
 {
     foreach (Weapon weapon in inventory)
     {
-        show();
+        Console.WriteLine(user.show);
+        Console.WriteLine("hej");
     }
 }
 
