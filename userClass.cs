@@ -16,6 +16,6 @@ class User
 
     public void show(Weapon mainhad)
     {
-        Console.WriteLine("Weapon: " + mainhad);
+        Console.WriteLine("---Weapon--- \n" + MainHand.Wname + "\n---Damage: " + MainHand.DMG + "---");
     }
 }
