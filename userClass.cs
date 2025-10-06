@@ -9,12 +9,13 @@ class User
 
     public User(string Username, int hp, Weapon mainhand)
     {
-        Username = Username;
+        Username = username;
         HP = hp;
         MainHand = mainhand;
     }
 
+    public void show(Weapon mainhad)
+    {
+        Console.WriteLine("Weapon: " + mainhad);
+    }
 }
-
-
-
