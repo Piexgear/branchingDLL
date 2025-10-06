@@ -7,11 +7,13 @@ class User
     public Weapon MainHand;
 
 
+    public User(string username, int hp, Weapon mainhad)
     public User(string Username, int hp, Weapon mainhand)
     {
         Username = username;
+        Username = username;
         HP = hp;
-        MainHand = mainhand;
+        MainHand = mainhad;
     }
 
     public void show(Weapon mainhad)
