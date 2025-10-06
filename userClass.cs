@@ -19,9 +19,9 @@ class User
         Console.WriteLine("Weapon: " + MainHand.Wname + " Damage: " + MainHand.DMG);
     }
 
-    public static User Attacking(User Player1, User Player2, User mainhand)
+    public static User Attacking(User Player1, User Player2, User weapon)
     {
-        int Damage = mainhand.MainHand.DMG;
+        int Damage = weapon.MainHand.DMG;
         Player2.HP -= Damage;
         return Player2;
     }
