@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("branchingDLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed246af7c8f267721bad224f057c393f7037517f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4b4d357bec5baaf82afe9a9ac1a6971c73cb450")]
 [assembly: System.Reflection.AssemblyProductAttribute("branchingDLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("branchingDLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
