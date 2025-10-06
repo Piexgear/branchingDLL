@@ -21,15 +21,9 @@ foreach (User user in users)
 {
     foreach (Weapon weapon in inventory)
     {
-<<<<<<< HEAD
-        user.show(weapon);
-        break;
-=======
 
         user.show(weapon);
         break;
-
->>>>>>> b925fedee3e25246ae2a1ba77c5035f3af59d73b
     }
 }
 

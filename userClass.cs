@@ -16,10 +16,13 @@ class User
 
     public void show(Weapon mainhand)
     {
-<<<<<<< HEAD
-        Console.WriteLine("---Weapon--- \n" + MainHand.Wname + "\n---Damage: " + MainHand.DMG + "---");
-=======
         Console.WriteLine("Weapon: " + MainHand.Wname + " Damage: " + MainHand.DMG);
->>>>>>> b925fedee3e25246ae2a1ba77c5035f3af59d73b
+    }
+
+    public static User Attacking(User Player1, User Player2, User mainhand)
+    {
+        int Damage = mainhand.MainHand.DMG;
+        Player2.HP -= Damage;
+        return Player2;
     }
 }
