@@ -8,9 +8,7 @@ class User
 
 
     public User(string username, int hp, Weapon mainhad)
-    public User(string Username, int hp, Weapon mainhand)
     {
-        Username = username;
         Username = username;
         HP = hp;
         MainHand = mainhad;
