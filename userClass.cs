@@ -7,15 +7,15 @@ class User
     public Weapon MainHand;
 
 
-    public User(string username, int hp, Weapon mainhad)
+    public User(string username, int hp, Weapon mainHand)
     {
         Username = username;
         HP = hp;
-        MainHand = mainhad;
+        MainHand = mainHand;
     }
 
-    public void show(Weapon mainhad)
+    public void show(Weapon mainhand)
     {
-        Console.WriteLine("Weapon: " + mainhad);
+        Console.WriteLine("Weapon: " + MainHand.Wname + " Damage: " + MainHand.DMG);
     }
 }

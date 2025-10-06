@@ -5,15 +5,22 @@ List<Weapon> inventory = new List<Weapon>();
 
 
 inventory.Add(new Weapon("Hamer", 10));
+inventory.Add(new Weapon("Bazuka", 20));
+inventory.Add(new Weapon("Tank", 70));
+
 users.Add(new User("David", 100, inventory[0]));
+users.Add(new User("Max", 50, inventory[1]));
+users.Add(new User("Lina", 100, inventory[2]));
 
 
 foreach (User user in users)
 {
     foreach (Weapon weapon in inventory)
     {
-        Console.WriteLine(user.show);
-        Console.WriteLine("hej");
+
+        user.show(weapon);
+        break;
+
     }
 }
 
